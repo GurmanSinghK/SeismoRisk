@@ -1,0 +1,55 @@
+
+print("SEISMORISK: FINAL RESULTS SUMMARY")
+print("=" * 50)
+
+print("\n1. DATASET")
+print("Reference earthquake: us1000gcii")
+print("Reference magnitude: 8.2")
+print("Analysis period: 30 days")
+print("Events analyzed: 422")
+
+print("\n2. DESCRIPTIVE STATISTICS")
+print("Mean magnitude: 4.4476")
+print("Mean depth: 560.7695 km")
+print("Mean daily count: 14.0667")
+print("Daily count variance: 993.7195")
+print("Variance-to-mean ratio: 70.6436")
+
+print("\n3. ACTIVITY PATTERN")
+print("Days 1-5 mean: 51.4 events/day")
+print("Days 6-15 mean: 6.3 events/day")
+print("Days 16-30 mean: 6.8 events/day")
+print("Highest daily count: 173")
+print("Lowest daily count: 2")
+
+print("\n4. COUNT MODEL COMPARISON")
+print("Poisson lambda: 14.0667")
+print("Negative Binomial r: 0.202")
+print("Negative Binomial p: 0.0142")
+print("Both models show limitations for this dataset.")
+print("Neither should be presented as a reliable forecast.")
+
+print("\n5. ACTIVITY CHANGE TEST")
+print("Welch t-test p-value: 0.2205")
+print("At 5% significance, fail to reject the null hypothesis.")
+print("This does not prove the period means are equal.")
+
+print("\n6. MAGNITUDE-DEPTH RELATIONSHIP")
+print("Pearson correlation: -0.0083")
+print("Interpretation: Almost no linear relationship in this sample.")
+
+print("\n7. DEPTH GROUPS")
+print("Shallow events: 3")
+print("Intermediate events: 3")
+print("Deep events: 416")
+print("Depth-group comparisons are descriptive only.")
+
+print("\n8. IMPORTANT LIMITATIONS")
+print("- Only 30 daily observations were analyzed.")
+print("- Daily counts are highly variable.")
+print("- Most selected events are deep earthquakes.")
+print("- The regional selection does not prove every event is")
+print("  a genuine aftershock of the reference earthquake.")
+print("- Results describe this dataset, not future earthquakes.")
+
+print("\nSummary completed.")
